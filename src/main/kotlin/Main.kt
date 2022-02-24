@@ -12,7 +12,7 @@ var home = ""
 /**
  * Program that creates a character based on user inputs
  */
-fun main(args: Array<String>) {
+fun main() {
     print("Hello World! What is my name? ") //print the first prompt
     name = readLine().toString() //get input from user, cast it as a string and set it as the name
     println("$name... has a nice ring to it. But what am I?") //second question
